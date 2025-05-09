@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/git")
+@RequestMapping("/rapid-test-ai/api/git")
 public class GitController {
 
     @Autowired

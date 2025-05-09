@@ -17,9 +17,9 @@ public class RapidTestAiApplication {
 		final String featureOutputFilePath = "/Users/darshbadodariya/Documents/finvu/rapidTestAI/";
 		final String stepDefOutputFilePath = "/Users/darshbadodariya/Documents/finvu/rapidTestAI/";
 
-		final File specFile = new File(specFilePath);
-		final GenerateTestOpenAPIService generateTestOpenAPIService = context.getBean(GenerateTestOpenAPIService.class);
-		generateTestOpenAPIService.generateTestsFromOpenAPISpec(specFile, featureOutputFilePath, stepDefOutputFilePath);
+//		final File specFile = new File(specFilePath);
+//		final GenerateTestOpenAPIService generateTestOpenAPIService = context.getBean(GenerateTestOpenAPIService.class);
+//		generateTestOpenAPIService.generateTestsFromOpenAPISpec(specFile, featureOutputFilePath, stepDefOutputFilePath);
 	}
 
 }
